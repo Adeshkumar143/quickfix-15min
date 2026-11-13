@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f1f5f9;
+  color: #1e293b;
+  padding: 15px;
+}
+
+/* Main App Container Card */
+#root > div {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  padding: 25px !important;
+  border: 1px solid #e2e8f0;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 18px;
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+/* Navigation & Action Buttons */
+button {
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+/* Inputs & Dropdowns */
+input, select {
+  width: 100%;
+  padding: 11px 14px;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #f8fafc;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input:focus, select:focus {
+  border-color: #2563eb;
+  background-color: #ffffff;
+}
+
+/* Order & Partner Cards */
+div[style*="border: 1px solid"] {
+  border: 1px solid #e2e8f0 !important;
+  border-left: 5px solid #2563eb !important;
+  border-radius: 10px !important;
+  background-color: #f8fafc !important;
+  padding: 14px !important;
+  margin-top: 12px !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+}
